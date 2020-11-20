@@ -1,10 +1,14 @@
-//your variable declarations here
+Spaceship SSQuack = new Spaceship();
 public void setup() 
 {
-  //your code here
+  size(500,500);
+  background(0);
+  SSQuack.turn(10);
+  SSQuack.accelerate(0.2);
 }
 public void draw() 
 {
-  //your code here
+  background(0);
+  SSQuack.move();
+  SSQuack.show();
 }
-
